@@ -14,6 +14,16 @@ html {
 	margin: 0;
 	padding: 0;
 	}
+
+header{
+	color: white;
+}
+
+header h2{
+	font-size: 17px;
+	margin: -20px 0 0 0;
+}
+
 body { 
 	font: 75%, sans-serif;
 	font-family: 'Press Start 2P';
@@ -118,3 +128,45 @@ div.requirements p{
 	font-size: 12px;
 	padding: 0 0 0 10px;	
 }
+
+div#zen-resources{
+	position: fixed;
+	right: 0px;
+	bottom: 0px;
+	top: 238px;
+}
+
+div#zen-resources h3{
+	background-color: white;
+	margin: 0 0 -20px 0;
+	padding: 0 0 0 10px;
+	
+}
+
+div#zen-resources ul{
+	border-style:solid;
+	border-color:black;
+	color:black;
+	font-size:15px;
+	background: white;
+	list-style: none;
+	max-width:350px
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+}
+
+div#zen-resources li{
+	border-style: solid;
+	margin: 0 0 0 0;
+	padding: 0 5px 0 5px;
+}
+
+footer{
+	float: left;
+	
+}
+
+aside.sidebar{
+	float: left;
+}
+
