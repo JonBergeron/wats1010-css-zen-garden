@@ -162,11 +162,31 @@ div#zen-resources li{
 }
 
 footer{
+	position:absolute;
+	bottom: -2440px;
 	float: left;
+	padding: 20px 10px 0 150px;
 	
 }
 
-aside.sidebar{
-	float: left;
+footer a{
+	padding: 0 20px 0 20px;
 }
 
+aside.sidebar{
+	position:absolute;
+	bottom: -2950px;
+	float: left;
+	padding: 20px 10px 10px 10px;
+	background-color: gray;
+}
+
+aside.sidebar ul{
+		list-style: none;
+}
+
+div.design-archives{
+	float: left;
+	padding: 0 0 0 0;
+	margin: 0 0 0 0;
+}
