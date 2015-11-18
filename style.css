@@ -55,7 +55,7 @@ div.explanation{
 	float: left;
 	background-image: url(panel-explanation.png);
 	background-size: 435px 525px;
-	margin: 0 0 0 400px;
+	margin: 40px 0 0 400px;
 
 }
 
@@ -74,7 +74,7 @@ div.participation{
 	max-width: 425px;
 	border-style: solid;
 	float: left;
-	background: white;
+	background-image: url(panel-participation.png);
 	margin: 40px 0 0 0;
 
 }
@@ -152,7 +152,7 @@ div#zen-resources ul{
 	font-size:15px;
 	background: white;
 	list-style: none;
-	max-width:350px;
+	max-width:350px
 	margin: 0 0 0 0;
 	padding: 0 0 0 0;
 }
