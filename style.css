@@ -34,9 +34,10 @@ body {
 
 div.preamble{
 	max-width: 825px;
-	border-style: solid;
+	/*border-style: solid;*/
 	float: left;
-	background: white;
+	background-image: url(panel-1.png);
+	background-size: contain;
 }
 
 div.preamble h3{
@@ -52,7 +53,8 @@ div.explanation{
 	max-width: 425px;
 	border-style: solid;
 	float: left;
-	background: white;
+	background-image: url(panel-1.png);
+	background-size: contain;
 	margin: 40px 0 0 400px;
 
 }
