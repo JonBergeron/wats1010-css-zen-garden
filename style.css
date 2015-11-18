@@ -51,22 +51,23 @@ div.preamble p{
 }
 
 div.explanation{
-	max-width: 425px;
+	max-width: 430px;
 	float: left;
 	background-image: url(panel-explanation.png);
+	background-size: 435px 525px;
 	margin: 40px 0 0 400px;
 
 }
 
 div.explanation h3{
 	border-bottom:solid;
-	padding: 0 0 0 10px;
+	padding: 0 0 0 13px;
 
 }
 
 div.explanation p{
 	font-size: 11px;
-	padding: 0 0 0 10px;	
+	padding: 0 0 0 15px;	
 }
 
 div.participation{
