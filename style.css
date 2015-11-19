@@ -21,6 +21,21 @@ header{
 
 div.page-wrapper::before{
 	content: url(panel-explanation.png);
+	width: 200px;
+height: 200px;
+background: url(bg-repeat.png) repeat-y;
+-webkit-animation: backgroundScroll 20s linear infinite;
+animation: backgroundScroll 20s linear infinite;
+}
+
+@-webkit-keyframes backgroundScroll {
+from {background-position: 0 0;}
+to {background-position: -400px 0;}
+}
+ 
+@keyframes backgroundScroll {
+from {background-position: 0 0;}
+to {background-position: -400px 0;}
 }
 
 header h2{
@@ -196,211 +211,4 @@ div.design-archives{
 	float: left;
 	padding: 0 0 0 0;
 	margin: 0 0 0 0;
-}
-
-/* test code */
-
-fieldset {
-  border: 1px solid #c0c0c0;
-  margin: 0 2px;
-  padding: 0.35em 0.625em 0.75em;
-}
-
-.spin from {
-  -webkit-transform: rotate(0deg);
-  -moz-transform: rotate(0deg);
-  -ms-transform: rotate(0deg);
-  -o-transform: rotate(0deg);
-  transform: rotate(0deg);
-}
-.spin to {
-  -webkit-transform: rotate(360deg);
-  -moz-transform: rotate(360deg);
-  -ms-transform: rotate(360deg);
-  -o-transform: rotate(360deg);
-  transform: rotate(360deg);
-}
-.rise from {
-  top: 100%;
-}
-.rise to {
-  top: 165px;
-}
-.rise-short from {
-  top: 100%;
-}
-.rise-short to {
-  top: 275px;
-}
-@-webkit-keyframes spin {
-  from {
-    -webkit-transform: rotate(0deg);
-    -moz-transform: rotate(0deg);
-    -ms-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
-    transform: rotate(0deg);
-  }
-  to {
-    -webkit-transform: rotate(360deg);
-    -moz-transform: rotate(360deg);
-    -ms-transform: rotate(360deg);
-    -o-transform: rotate(360deg);
-    transform: rotate(360deg);
-  }
-}
-@-moz-keyframes spin {
-  from {
-    -webkit-transform: rotate(0deg);
-    -moz-transform: rotate(0deg);
-    -ms-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
-    transform: rotate(0deg);
-  }
-  to {
-    -webkit-transform: rotate(360deg);
-    -moz-transform: rotate(360deg);
-    -ms-transform: rotate(360deg);
-    -o-transform: rotate(360deg);
-    transform: rotate(360deg);
-  }
-}
-@-ms-keyframes spin {
-  from {
-    -webkit-transform: rotate(0deg);
-    -moz-transform: rotate(0deg);
-    -ms-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
-    transform: rotate(0deg);
-  }
-  to {
-    -webkit-transform: rotate(360deg);
-    -moz-transform: rotate(360deg);
-    -ms-transform: rotate(360deg);
-    -o-transform: rotate(360deg);
-    transform: rotate(360deg);
-  }
-}
-@-o-keyframes spin {
-  from {
-    -webkit-transform: rotate(0deg);
-    -moz-transform: rotate(0deg);
-    -ms-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
-    transform: rotate(0deg);
-  }
-  to {
-    -webkit-transform: rotate(360deg);
-    -moz-transform: rotate(360deg);
-    -ms-transform: rotate(360deg);
-    -o-transform: rotate(360deg);
-    transform: rotate(360deg);
-  }
-}
-@keyframes spin {
-  from {
-    -webkit-transform: rotate(0deg);
-    -moz-transform: rotate(0deg);
-    -ms-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
-    transform: rotate(0deg);
-  }
-  to {
-    -webkit-transform: rotate(360deg);
-    -moz-transform: rotate(360deg);
-    -ms-transform: rotate(360deg);
-    -o-transform: rotate(360deg);
-    transform: rotate(360deg);
-  }
-}
-@-webkit-keyframes rise {
-  from {
-    top: 100%;
-  }
-  to {
-    top: 165px;
-  }
-}
-@-moz-keyframes rise {
-  from {
-    top: 100%;
-  }
-  to {
-    top: 165px;
-  }
-}
-@-ms-keyframes rise {
-  from {
-    top: 100%;
-  }
-  to {
-    top: 165px;
-  }
-}
-@-o-keyframes rise {
-  from {
-    top: 100%;
-  }
-  to {
-    top: 165px;
-  }
-}
-@keyframes rise {
-  from {
-    top: 100%;
-  }
-  to {
-    top: 165px;
-  }
-}
-@-webkit-keyframes rise-short {
-  from {
-    top: 100%;
-  }
-  to {
-    top: 275px;
-  }
-}
-@-moz-keyframes rise-short {
-  from {
-    top: 100%;
-  }
-  to {
-    top: 275px;
-  }
-}
-@-ms-keyframes rise-short {
-  from {
-    top: 100%;
-  }
-  to {
-    top: 275px;
-  }
-}
-@-o-keyframes rise-short {
-  from {
-    top: 100%;
-  }
-  to {
-    top: 275px;
-  }
-}
-@keyframes rise-short {
-  from {
-    top: 100%;
-  }
-  to {
-    top: 275px;
-  }
-}
-aside:before {
-  -webkit-animation: spin 8s infinite linear;
-  -moz-animation: spin 8s infinite linear;
-  -ms-animation: spin 8s infinite linear;
-  -o-animation: spin 8s infinite linear;
-}
-aside:after {
-  -webkit-animation: rise 1.5s 1 ease;
-  -moz-animation: rise 1.5s 1 ease;
-  -ms-animation: rise 1.5s 1 ease;
-  -o-animation: rise 1.5s 1 ease;
 }
