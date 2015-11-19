@@ -19,24 +19,6 @@ header{
 	color: white;
 }
 
-div.page-wrapper::before{
-	content: url(panel-explanation.png);
-	width: 200px;
-height: 200px;
-background: url(bg-repeat.png) repeat-y;
--webkit-animation: backgroundScroll 20s linear infinite;
-animation: backgroundScroll 20s linear infinite;
-}
-
-@-webkit-keyframes backgroundScroll {
-from {background-position: 0 0;}
-to {background-position: -400px 0;}
-}
- 
-@keyframes backgroundScroll {
-from {background-position: 0 0;}
-to {background-position: -400px 0;}
-}
 
 header h2{
 	font-size: 17px;
@@ -47,9 +29,22 @@ body {
 	font: 75%, sans-serif;
 	font-family: 'Press Start 2P';
 	line-height: 1.88889;
-	background: black;
+	width: 1200px;
+	height: 1200px;
+	background: url(stars_layer_1.png) repeat-y;
+	-webkit-animation: backgroundScroll 10s linear infinite;
+	animation: backgroundScroll 10s linear infinite;
 	}
 
+@-webkit-keyframes backgroundScroll {
+from {background-position: 0 0;}
+to {background-position: -400px 0;}
+}
+ 
+@keyframes backgroundScroll {
+from {background-position: 0 0;}
+to {background-position: -400px 0;}
+}
 
 div.preamble{
 	max-width: 825px;
@@ -116,7 +111,8 @@ div.benefits {
 	border-style: solid;
 	float: left;
 	background-image: url(panel-benefits.png);
-	margin: 40px 0 0 0;
+	margin: 0 0 0 -3px;
+	background-size: 825px 186px;
 
 }
 
@@ -128,7 +124,8 @@ div.benefits h3{
 
 div.benefits p{
 	font-size: 11px;
-	padding: 0 0 0 10px;	
+	padding: 0 0 0 7px;
+	margin: 0 0 11px 0;	
 }
 
 div.requirements {
@@ -148,7 +145,8 @@ div.requirements h3{
 
 div.requirements p{
 	font-size: 11px;
-	padding: 0 0 0 10px;	
+	padding: 0 0 0 10px;
+	margin: 0 0 31px 0;	
 }
 
 div#zen-resources{
