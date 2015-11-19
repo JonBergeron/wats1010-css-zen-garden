@@ -32,37 +32,37 @@ body {
 	width: 1200px;
 	height: 1200px;
 	background: url(stars-layer-1.png) repeat-y;
-	-webkit-animation: backgroundScroll 5s linear infinite;
-	animation: backgroundScroll 5s linear infinite;
+	-webkit-animation: backgroundScroll 10s linear infinite;
+	animation: backgroundScroll 10s linear infinite;
 	background-color: black;
 	}
 
 @-webkit-keyframes backgroundScroll {
-from {background-position: 0 0;}
-to {background-position: -800px 0;}
+from {background-position: 500px 0;}
+to {background-position: 400px 0;}
 }
  
 @keyframes backgroundScroll {
-from {background-position: 0 0;}
-to {background-position: -800px 0;}
+from {background-position: -500px 0;}
+to {background-position: 400px 0;}
 }
 
 div.page-wrapper{
 	width: 1200px;
 	height: 1200px;
 	background: url(stars-layer-2.png) repeat-y;
-	-webkit-animation: forgroundScroll 10s linear infinite;
-	animation: forgroundScroll 10s linear infinite;
+	-webkit-animation: forgroundScroll 5s linear infinite;
+	animation: forgroundScroll 5s linear infinite;
 	}
 
 @-webkit-keyframes forgroundScroll {
-from {background-position: 0 0;}
-to {background-position: -800px 0;}
+from {background-position: -1000px 0;}
+to {background-position: 400px 0;}
 }
  
 @keyframes forgroundScroll {
-from {background-position: 0 0;}
-to {background-position: -800px 0;}
+from {background-position: -1000px 0;}
+to {background-position: 400px 0;}
 }
 
 div.preamble{
@@ -152,7 +152,7 @@ div.requirements {
 	border-style: solid;
 	float: left;
 	background-image: url(panel-requirements.png);
-	margin: 40px 0 0 0;
+	margin: 60px 0 0 -3px;
 
 }
 
@@ -202,7 +202,7 @@ div#zen-resources li{
 
 footer{
 	position:absolute;
-	bottom: -2440px;
+	bottom: -1400px;
 	float: left;
 	padding: 20px 10px 10px 150px;
 	
@@ -214,7 +214,7 @@ footer a{
 
 aside.sidebar{
 	position:absolute;
-	bottom: -2950px;
+	bottom: -2640px;
 	float: left;
 	padding: 20px 10px 10px 10px;
 	background-color: gray;
