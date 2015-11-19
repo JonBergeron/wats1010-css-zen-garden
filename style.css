@@ -31,9 +31,10 @@ body {
 	line-height: 1.88889;
 	width: 1200px;
 	height: 1200px;
-	background: url(stars_layer_1.png) repeat-y;
+	background: url(stars-layer-1.png) repeat-y;
 	-webkit-animation: backgroundScroll 10s linear infinite;
 	animation: backgroundScroll 10s linear infinite;
+	background-color: black;
 	}
 
 @-webkit-keyframes backgroundScroll {
